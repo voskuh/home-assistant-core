@@ -1201,6 +1201,8 @@ build.json @home-assistant/supervisor
 /homeassistant/components/shodan/ @fabaff
 /homeassistant/components/sia/ @eavanvalkenburg
 /tests/components/sia/ @eavanvalkenburg
+/homeassistant/components/sia_oh/ @voskuh
+/tests/components/sia_oh/ @voskuh
 /homeassistant/components/sighthound/ @robmarkcole
 /tests/components/sighthound/ @robmarkcole
 /homeassistant/components/signal_messenger/ @bbernhard

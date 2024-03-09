@@ -1649,6 +1649,7 @@ pyserial-asyncio==0.6
 pyserial==3.5
 
 # homeassistant.components.sia
+# homeassistant.components.sia_oh
 pysiaalarm==3.1.1
 
 # homeassistant.components.signal_messenger

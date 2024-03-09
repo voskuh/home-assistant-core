@@ -4,7 +4,7 @@
     {
       "label": "Run Home Assistant Core",
       "type": "shell",
-      "command": "hass -c ./config",
+      "command": "hass -c ./config --skip-pip-packages pysiaalarm",
       "group": "test",
       "presentation": {
         "reveal": "always",

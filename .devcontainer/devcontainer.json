@@ -6,8 +6,16 @@
   "postStartCommand": "script/bootstrap",
   "containerEnv": { "DEVCONTAINER": "1" },
   // Port 5683 udp is used by Shelly integration
-  "appPort": ["8123:8123", "5683:5683/udp"],
+  "appPort": ["8123:8123", "12300:12300", "5683:5683/udp"],
   "runArgs": ["-e", "GIT_EDITOR=code --wait"],
+  "mounts": [
+    // Custom configuration directory
+    //"source=${localEnv:HOME}/path/to/config,target=${containerWorkspaceFolder}/config,type=bind",
+    // Custom component
+    //"source=${localEnv:HOME}/path/to/custom_repo/custom_components/component_name,target=${containerWorkspaceFolder}/config/custom_components/component_name,type=bind",
+    //Custom library
+    "source=${localEnv:HOME}/pysiaalarm,target=${containerWorkspaceFolder}/config/custom_libraries/pysiaalarm,type=bind"
+  ],
   "customizations": {
     "vscode": {
       "extensions": [

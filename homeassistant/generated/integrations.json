@@ -5316,6 +5316,12 @@
       "config_flow": true,
       "iot_class": "local_push"
     },
+    "sia_oh": {
+      "name": "SIA Osborne-Hoffman",
+      "integration_type": "hub",
+      "config_flow": true,
+      "iot_class": "local_push"
+    },
     "sigfox": {
       "name": "Sigfox",
       "integration_type": "hub",
